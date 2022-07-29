@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lamg="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+        <title> Courtney's Portfolio</title>
+    </head>
+
+    <body>
+        <!-- Header Section -->
+        <header>
+            <h1>
+                <a href="/">Courtney's Portfolio</a>
+            </h1>
+            <!-- Start of Navigation -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="about-me"> About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me"> Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="htlinkedin.com/in/courtney-jackson-gomesq://www.linkin.com/in/cjacksongomes"><a> Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- End of Navigation Section -->
+        <!-- End of Header Section -->
+
+        <!-- Start of Here Section -->
+        <section class="hero">
+            <h2>Website Development Student</h2>
+        </section>
+        <!-- End of Hero Section -->
+
+        <!-- Start of "About Me" Section -->
+        <section id="about-me" class="section">
+            <!-- Section Title -->
+            <div class="section-title">
+                <h3>
+                About Me
+                </h2>
+             </div>
+
+            <!-- Section Content -->
+            <div class="flex-row">
+                  
+                  <p>
+                      Hello, My name is Courtney Jackson-Gomes. I'm a student at UNCC, I have learned HTML,CSS, and Git. You will find an overview of my journey as a student website developer.
+                  </p>
+            </div>
+        </section>
+        <!-- End of "About Me" Section -->
+
+        <!-- Start of "Work" Section -->
+        <article>
+            <div id="work" class="work-wrapper"> <!-- Id's coming from the header nav and a flex wrapper -->
+                <div class="work-grid-container"> <!-- Work projects container is a grid container -->
+                    <div class="work-item work-title"> <!-- Each item is a grid item -->
+                        <p> Work </p>
+                    </div>
+                    <!-- Clickable grid link functionality achieved with a javascript function as anchor wrap did not work (tried) as intended for me -->
+                    <!-- Alt, title (tooltip) and open in new tab functionality added-->
+                    <!-- Each grid item has its own grid location achieved by creating one object/instance per class -->
+                    <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
+                        <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
+                            <h3>Horiseon Services</h3>
+                            <span class="lower-text">HTML/CSS</span> <!-- A small class to apply for all grid lower text -->
+                        </span>
+                    </div>
+                    <!-- All grids below follow same patern as described above until this article container is finished -->
+                    <div onclick="projectClicked('run-buddy')" alt="Image Displaying the RUN BUDDY landing Page" title="RUN BUDDY landing page" style="cursor: pointer;" class="work-item-project run-buddy">
+                        <span class="span-background">
+                            <h3>Run Buddy</h3>
+                            <span class="lower-text">HTML/CSS</span>
+                        </span>
+                    </div>
+            
+                    <div class="JavaScript Challenge: Password Generator">
+                        <span class="Password Generator">
+                            <h3>Coming soon!</h3>
+                            <span class="lower-text">TBD</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </article>
+    <!-- End of "Work" Section -->
+
+    <!-- Start of "Contact Me" Section -->
+    <section id="contact-me" class="section">
+        <!-- Section Title -->
+        <div class="section-title">
+          <h2>
+            Contact Me
+          </h2>
+        </div>
+
+        <!-- Section Content -->
+        <div class="flex-row">
+            <div class="phone">
+                <a href="tel:9803616494">Call Me</a>
+            </div>
+
+            <div class="email">
+                <a href="mailto:jacksongomesco@gmail.com">Email Me</a>
+            </div>
+
+            <div class="linkedin">
+                <a href="linkedin.com/in/courtney-jackson-gomes-83279b243/">LinkedIn</a>
+            </div>
+
+            <div class="github">
+                <a href="https://github.com/cjacksongomes2">Github</a>
+            </div>
+      </div>
+      </section>
+    <!-- End of "Contact Me" Section -->
+
+    <!-- footer -->
+    <footer>
+      <h2>Made by Courtney Jackson-Gomes </h2>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>    
+          
+
+            
+            
+            
